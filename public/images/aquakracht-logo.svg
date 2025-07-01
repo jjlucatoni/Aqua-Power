@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- House Roof -->
+  <path d="M512 270 L596 350 L428 350 L512 270" fill="#0055a5"/>
+  <!-- House Chimney -->
+  <rect x="565" y="290" width="15" height="30" fill="#0055a5"/>
+  <!-- House Structure -->
+  <path d="M428 350 L596 350 L596 400 L428 400 Z" fill="#6e6e6e"/>
+  <!-- Windows -->
+  <rect x="485" y="365" width="15" height="15" fill="#6e6e6e"/>
+  <rect x="510" y="365" width="15" height="15" fill="#6e6e6e"/>
+  <rect x="485" y="390" width="15" height="15" fill="#6e6e6e"/>
+  <rect x="510" y="390" width="15" height="15" fill="#6e6e6e"/>
+  
+  <!-- Icons -->
+  <!-- Water Tap -->
+  <rect x="340" y="430" width="75" height="75" rx="10" fill="#6e6e6e"/>
+  <path d="M355 450 C355 450, 355 470, 375 470 L375 480 L385 480 L385 470 C400 470, 400 450, 400 450" fill="none" stroke="white" stroke-width="10"/>
+  
+  <!-- Wrench -->
+  <rect x="440" y="430" width="75" height="75" rx="10" fill="#0055a5"/>
+  <path d="M461 445 C461 445, 463 458, 477 458 L485 470 L470 485 L458 477 C458 463, 445 461, 445 461 L461 445" fill="white"/>
+  <path d="M495 475 C495 475, 500 480, 508 472 C516 464, 511 459, 511 459 L495 475" fill="white"/>
+  
+  <!-- Leaf -->
+  <rect x="540" y="430" width="75" height="75" rx="10" fill="#6e6e6e"/>
+  <path d="M577 445 C577 445, 545 475, 577 500 C577 500, 609 475, 577 445" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#0055a5">AQUAKRACHT</text>
+</svg>
