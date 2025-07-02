@@ -58,7 +58,6 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-blue-600" />
                   <div>
                     <div className="font-semibold text-gray-900">Telefoon</div>
-                    <div className="text-gray-700 text-sm">0686463310</div>
                     <div className="text-gray-700 text-sm">+31 85 820 08 76</div>
                   </div>
                 </CardContent>
@@ -110,10 +109,6 @@ const Contact = () => {
                     Voor de beste service raden wij aan direct contact op te nemen via telefoon, e-mail of WhatsApp.
                   </p>
                   <div className="grid gap-3">
-                    <div className="flex items-center justify-center gap-2">
-                      <Phone className="h-5 w-5 text-blue-600" />
-                      <span className="text-base font-medium text-gray-900">0686463310</span>
-                    </div>
                     <div className="flex items-center justify-center gap-2">
                       <Phone className="h-5 w-5 text-blue-600" />
                       <span className="text-base font-medium text-gray-900">+31 85 820 08 76</span>
