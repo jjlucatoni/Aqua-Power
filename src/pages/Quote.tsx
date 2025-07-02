@@ -219,7 +219,7 @@ const Quote = () => {
                 <CardContent className="space-y-4">
                   <Button className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-semibold">
                     <Phone className="w-5 h-5 mr-2" />
-                    Direct bellen: 0621301486
+                    Direct bellen: 0686463310
                   </Button>
                   
                   <Button variant="outline" className="w-full border-2 border-slate-300 hover:bg-slate-50">

@@ -48,7 +48,18 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-blue-600" />
                   <div>
                     <div className="font-semibold text-gray-900">E-mail</div>
-                    <div className="text-gray-700 text-sm">info@aquapower.nl</div>
+                    <div className="text-gray-700 text-sm">info@aqua-power.nl</div>
+                  </div>
+                </CardContent>
+              </Card>
+              {/* Phone */}
+              <Card className="border border-blue-100 shadow-none bg-white">
+                <CardContent className="p-4 flex items-center gap-4">
+                  <Phone className="h-6 w-6 text-blue-600" />
+                  <div>
+                    <div className="font-semibold text-gray-900">Telefoon</div>
+                    <div className="text-gray-700 text-sm">0686463310</div>
+                    <div className="text-gray-700 text-sm">+31 85 820 08 76</div>
                   </div>
                 </CardContent>
               </Card>
@@ -58,7 +69,7 @@ const Contact = () => {
                   <MessageSquare className="h-6 w-6 text-blue-600" />
                   <div>
                     <div className="font-semibold text-gray-900">WhatsApp</div>
-                    <div className="text-gray-700 text-sm">0621301486</div>
+                    <div className="text-gray-700 text-sm">0686463310</div>
                   </div>
                 </CardContent>
               </Card>
@@ -101,15 +112,19 @@ const Contact = () => {
                   <div className="grid gap-3">
                     <div className="flex items-center justify-center gap-2">
                       <Phone className="h-5 w-5 text-blue-600" />
-                      <span className="text-base font-medium text-gray-900">0621301486</span>
+                      <span className="text-base font-medium text-gray-900">0686463310</span>
+                    </div>
+                    <div className="flex items-center justify-center gap-2">
+                      <Phone className="h-5 w-5 text-blue-600" />
+                      <span className="text-base font-medium text-gray-900">+31 85 820 08 76</span>
                     </div>
                     <div className="flex items-center justify-center gap-2">
                       <Mail className="h-5 w-5 text-blue-600" />
-                      <span className="text-base font-medium text-gray-900">info@aquapower.nl</span>
+                      <span className="text-base font-medium text-gray-900">info@aqua-power.nl</span>
                     </div>
                     <div className="flex items-center justify-center gap-2">
                       <MessageSquare className="h-5 w-5 text-blue-600" />
-                      <span className="text-base font-medium text-gray-900">0621301486</span>
+                      <span className="text-base font-medium text-gray-900">0686463310</span>
                     </div>
                   </div>
                   <div className="mt-6">

@@ -216,18 +216,24 @@ const Index = () => {
                 Heeft u vragen of wilt u een afspraak maken? Neem direct contact met ons op. 
                 Wij staan 24/7 voor u klaar bij storingen.
               </p>
-              <div className="space-y-6">
+                              <div className="space-y-6">
                 <div className="flex items-center text-white group">
                   <div className="bg-white/20 p-3 rounded-xl mr-4 group-hover:bg-white/30 transition-colors duration-300">
                     <Phone className="h-6 w-6" />
                   </div>
-                  <span className="text-lg">+31 (0)20 123 4567</span>
+                  <span className="text-lg">0686463310</span>
+                </div>
+                <div className="flex items-center text-white group">
+                  <div className="bg-white/20 p-3 rounded-xl mr-4 group-hover:bg-white/30 transition-colors duration-300">
+                    <Phone className="h-6 w-6" />
+                  </div>
+                  <span className="text-lg">+31 85 820 08 76</span>
                 </div>
                 <div className="flex items-center text-white group">
                   <div className="bg-white/20 p-3 rounded-xl mr-4 group-hover:bg-white/30 transition-colors duration-300">
                     <Mail className="h-6 w-6" />
                   </div>
-                  <span className="text-lg">info@aquapower.nl</span>
+                  <span className="text-lg">info@aqua-power.nl</span>
                 </div>
                 <div className="flex items-center text-white group">
                   <div className="bg-white/20 p-3 rounded-xl mr-4 group-hover:bg-white/30 transition-colors duration-300">
@@ -311,9 +317,10 @@ const Index = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4 text-blue-200">Contact</h4>
               <div className="space-y-3 text-gray-300">
-                <p className="hover:text-cyan-300 transition-colors duration-300">Amsterdam en omgeving</p>
-                <p className="hover:text-cyan-300 transition-colors duration-300">+31 (0)20 123 4567</p>
-                <p className="hover:text-cyan-300 transition-colors duration-300">info@aquapower.nl</p>
+                <p className="hover:text-cyan-300 transition-colors duration-300">Zuid-Holland en omgeving</p>
+                <p className="hover:text-cyan-300 transition-colors duration-300">0686463310</p>
+                <p className="hover:text-cyan-300 transition-colors duration-300">+31 85 820 08 76</p>
+                <p className="hover:text-cyan-300 transition-colors duration-300">info@aqua-power.nl</p>
                 <p className="text-sm text-gray-400">KvK: 12345678 | BTW: NL123456789B01</p>
               </div>
             </div>
