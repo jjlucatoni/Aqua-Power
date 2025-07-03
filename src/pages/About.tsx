@@ -46,7 +46,7 @@ const About = () => {
             Uw Betrouwbare Partner
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Al 10 jaar gespecialiseerd in onze diensten, staat Aqua Power uit Den Haag voor kwaliteit, betrouwbaarheid en vakmanschap. Wij zijn uw specialist voor alle sanitair-, CV- en onderhoudswerkzaamheden in heel Zuid-Holland.
+            Al meer dan 10 jaar gespecialiseerd in onze diensten, staat Aqua Power uit Den Haag voor kwaliteit, betrouwbaarheid en vakmanschap. Wij zijn uw specialist voor alle sanitair-, CV- en onderhoudswerkzaamheden in heel Zuid-Holland.
           </p>
         </div>
 

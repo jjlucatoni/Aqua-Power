@@ -15,7 +15,7 @@ interface SEOHeadProps {
 const SEOHead: React.FC<SEOHeadProps> = ({
   title,
   description,
-  keywords = "installateur den haag, sanitair, cv installatie, verwarming, loodgieter den haag, badkamer renovatie, warmtepomp, aqua power, zuid-holland",
+  keywords = "installateur den haag, sanitair, cv installatie, verwarming, loodgieter den haag, badkamer renovatie, warmtepomp, aqua power, zuid-holland, 10+ jaar ervaring, ervaren installateur",
   canonical,
   ogImage = "https://aqua-power.nl/Logo/Aquapower-removebg-preview.png",
   ogType = "website",

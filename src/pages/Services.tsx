@@ -26,7 +26,7 @@ const Services = () => {
       icon: Wrench,
       title: "Loodgieterswerk",
       description: "Professionele loodgietersoplossingen voor uw woning of bedrijf",
-      longDescription: "Als vakkundige installateurs uit Zuid-Holland staan wij klaar voor al je loodgieterswerkzaamheden. Van lekkages tot complete installaties, wij zorgen persoonlijk voor een betrouwbare en duurzame oplossing bij jou thuis.",
+      longDescription: "Met 10+ jaar ervaring als vakkundige installateurs uit Zuid-Holland staan wij klaar voor al je loodgieterswerkzaamheden. Van lekkages tot complete installaties, wij zorgen persoonlijk voor een betrouwbare en duurzame oplossing bij jou thuis.",
       benefits: [
         "Snelle service bij calamiteiten",
         "Vakkundige installatie",

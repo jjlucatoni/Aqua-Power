@@ -85,7 +85,7 @@ const Home = () => {
           <div>
             <Badge className="mb-6 bg-cyan-400/20 text-cyan-300 border-cyan-400/30 backdrop-blur-sm">
               <Zap className="w-4 h-4 mr-2" />
-              10 jaar ervaring in installatie
+              10+ jaar ervaring in installatie
             </Badge>
             
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
@@ -98,7 +98,7 @@ const Home = () => {
             
             <p className="text-xl text-slate-300 mb-8 leading-relaxed max-w-2xl">
               Gevestigd in Den Haag, helpen wij je in heel Zuid-Holland en omliggende gebieden met energiezuinige, duurzame oplossingen voor je huis. 
-              Met onze persoonlijke aanpak en vakmanschap bespaar je 
+              Met meer dan 10 jaar ervaring, persoonlijke aanpak en vakmanschap bespaar je 
               tot 70% op je energiekosten.
             </p>
             
