@@ -5,32 +5,8 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# Exclude static files from SPA fallback
-[[redirects]]
-  from = "/sitemap.xml"
-  to = "/sitemap.xml"
-  status = 200
-
-[[redirects]]
-  from = "/robots.txt"
-  to = "/robots.txt"
-  status = 200
-
-[[redirects]]
-  from = "/manifest.json"
-  to = "/manifest.json"
-  status = 200
-
-[[redirects]]
-  from = "/sw.js"
-  to = "/sw.js"
-  status = 200
-
-# SPA fallback for everything else
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Static files are handled automatically by Netlify
+# No redirects needed - _redirects file handles SPA fallback
 
 [[headers]]
   for = "/*"
