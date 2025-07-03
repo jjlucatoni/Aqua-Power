@@ -14,20 +14,20 @@ const PortfolioCarousel = ({ images }: { images?: { src: string; title: string; 
     {
       id: 1,
       src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop",
-      title: "Moderne Badkamer Renovatie",
-      description: "Complete badkamerrenovatie met luxe afwerking"
+      title: "Moderne Badkamer Renovatie Den Haag",
+      description: "Complete badkamerrenovatie met luxe afwerking door Aqua Power"
     },
     {
       id: 2,
       src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
-      title: "CV-Installatie",
-      description: "Energiezuinige CV-ketel installatie"
+      title: "CV-Installatie Zuid-Holland",
+      description: "Energiezuinige CV-ketel installatie door Aqua Power installateurs"
     },
     {
       id: 3,
       src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
-      title: "Sanitair Werkzaamheden",
-      description: "Professionele sanitair installatie"
+      title: "Sanitair Werkzaamheden Den Haag",
+      description: "Professionele sanitair installatie door ervaren loodgieters"
     },
     {
       id: 4,
@@ -144,7 +144,7 @@ const PortfolioCarousel = ({ images }: { images?: { src: string; title: string; 
                   <div className="relative overflow-hidden rounded-lg cursor-pointer" onClick={() => setSelectedImage(image.src)}>
                     <img
                       src={image.src}
-                      alt={image.title}
+                      alt={`${image.title} - Aqua Power Den Haag installateur project`}
                       className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
                     />
 
@@ -173,7 +173,7 @@ const PortfolioCarousel = ({ images }: { images?: { src: string; title: string; 
           </button>
           <img
             src={selectedImage!}
-            alt="Project full view"
+            alt="Aqua Power Den Haag installateur project - volledig beeld"
             className="max-w-full max-h-full object-contain"
             onClick={(e) => e.stopPropagation()}
           />

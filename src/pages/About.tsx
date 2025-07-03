@@ -4,11 +4,14 @@ import { ArrowLeft, Award, Shield, Heart } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import SEOHead from '@/components/SEOHead';
 
 const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50">
       <Navigation />
+      <Breadcrumbs />
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-900">
         <div className="max-w-3xl mx-auto px-4 text-center">
@@ -43,7 +46,7 @@ const About = () => {
             Uw Betrouwbare Partner
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Al 10 jaar gespecialiseerd in onze diensten, staat AquaPower uit Den Haag voor kwaliteit, betrouwbaarheid en vakmanschap. Wij zijn uw specialist voor alle sanitair-, CV- en onderhoudswerkzaamheden in heel Zuid-Holland.
+            Al 10 jaar gespecialiseerd in onze diensten, staat Aqua Power uit Den Haag voor kwaliteit, betrouwbaarheid en vakmanschap. Wij zijn uw specialist voor alle sanitair-, CV- en onderhoudswerkzaamheden in heel Zuid-Holland.
           </p>
         </div>
 

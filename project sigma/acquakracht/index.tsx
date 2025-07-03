@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import PortfolioCarousel from '@/components/PortfolioCarousel';
 
-const Acquakracht = () => {
+const AquaPower = () => {
   return (
     <div className="min-h-screen bg-blue-50">
       {/* Header */}
@@ -17,7 +17,7 @@ const Acquakracht = () => {
               <span className="text-lg font-semibold">Terug naar Home</span>
             </Link>
             <h1 className="text-3xl font-bold text-white">
-              Over Acquakracht
+              Over Aqua Power
             </h1>
           </div>
         </div>
@@ -30,7 +30,7 @@ const Acquakracht = () => {
             Uw Betrouwbare Partner
           </h2>
           <p className="text-xl text-blue-600 max-w-3xl mx-auto leading-relaxed opacity-80">
-            Al 10 jaar gespecialiseerd in onze diensten, staat Acquakracht uit Rotterdam voor kwaliteit, 
+            Al 10 jaar gespecialiseerd in onze diensten, staat Aqua Power uit Den Haag voor kwaliteit, 
             betrouwbaarheid en vakmanschap. Wij zijn uw specialist voor alle sanitair-, CV- en onderhoudswerkzaamheden 
             in heel Zuid-Holland en omliggende gebieden.
           </p>
@@ -52,7 +52,7 @@ const Acquakracht = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-cyan-500 mb-4">Onze Ervaring</h3>
               <p className="text-blue-600 leading-relaxed opacity-80">
-                Als twee vakkundige vrienden uit Rotterdam hebben wij samen vele projecten succesvol 
+                Als twee vakkundige vrienden uit Den Haag hebben wij samen vele projecten succesvol 
                 voltooid in heel Zuid-Holland. Van kleine reparaties tot complete badkamerrenovaties - wij doen het allemaal met persoonlijke aandacht bij jou thuis.
               </p>
             </CardContent>
@@ -131,4 +131,4 @@ const Acquakracht = () => {
   );
 };
 
-export default Acquakracht;
+export default AquaPower;

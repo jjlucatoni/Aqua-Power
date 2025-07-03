@@ -3,6 +3,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Wrench, Droplets, Thermometer, Phone, Mail, MapPin, Clock, Shield, Users, Star, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import FAQ from "@/components/FAQ";
+import Reviews from "@/components/Reviews";
 
 const Index = () => {
   const services = [
@@ -102,7 +104,7 @@ const Index = () => {
               </span>
             </h1>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Van kleine reparaties tot complete badkamer renovaties. Aqua Kracht staat voor 
+              Van kleine reparaties tot complete badkamer renovaties. Aqua Power staat voor 
               vakmanschap, betrouwbaarheid en persoonlijke service in heel Zuid-Holland.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -173,7 +175,7 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent mb-4">
-              Waarom Aqua Kracht?
+              Waarom Aqua Power?
             </h2>
             <p className="text-xl text-gray-600">
               Meer dan 25 jaar ervaring in de installatiebranche
@@ -280,6 +282,12 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Reviews Section */}
+      <Reviews />
+
+      {/* FAQ Section */}
+      <FAQ />
+
       {/* Footer */}
       <footer className="bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 text-white py-12 relative overflow-hidden">
         <div className="absolute inset-0">
@@ -295,7 +303,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent">
-                    Aqua Kracht
+                    Aqua Power
                   </h3>
                   <p className="text-gray-400 text-sm">Installatiebedrijf</p>
                 </div>
@@ -327,7 +335,7 @@ const Index = () => {
           </div>
           <div className="border-t border-gray-700/50 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              &copy; 2024 Aqua Kracht. Alle rechten voorbehouden.
+              &copy; 2024 Aqua Power. Alle rechten voorbehouden.
             </p>
           </div>
         </div>

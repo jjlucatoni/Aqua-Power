@@ -122,12 +122,6 @@ const Contact = () => {
                       <span className="text-base font-medium text-gray-900">0686463310</span>
                     </div>
                   </div>
-                  <div className="mt-6">
-                    <Button className="bg-cyan-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 w-full">
-                      <Phone className="w-4 h-4 mr-2" />
-                      Bel ons direct
-                    </Button>
-                  </div>
                 </div>
               </CardContent>
             </Card>
